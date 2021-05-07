@@ -1,4 +1,4 @@
-.home {
+.banner {
   display: flex;
   justify-content: space-between;
 }
@@ -46,14 +46,14 @@ button:hover {
   height: 100vh;
 }
 
-.home img {
+.banner img {
   height: 100%;
   width: 100%;
   object-fit: contain;
 }
 
 @media (max-width:600px) {
-  .home {
+  .banner {
     flex-direction: column-reverse;
   }
   .left_hero, .right_hero, .center_hero {
