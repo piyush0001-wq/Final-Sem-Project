@@ -5,7 +5,7 @@ import './HowItWorks.css'
 function HowItWorks() {
   return (
     <div className="HowItWorks">
-      <h1>How it works?</h1>
+      <h1>How Online Veterinarian Service works??</h1>
       <div className="content">
         <div className="StepsToWork">
           <div className="icons">
