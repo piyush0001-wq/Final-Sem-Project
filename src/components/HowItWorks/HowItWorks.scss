@@ -37,38 +37,37 @@
           }
         }
       }
-      
-      }
-      .steps {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        .step1,
-        .step2,
-        .step3 {
-          margin: 10px 30px;
-          padding: 20px;
-          border-radius: 0 20px 20px 20px;
-          background: white;
-          box-shadow: 0 20px 20px rgba(128, 128, 128, 0.486);
-          h3 {
-            font-weight: bold;
-          }
-          p {
-            color: #405c5a;
-            font-weight: 600;
-          }
+    }
+    .steps {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      .step1,
+      .step2,
+      .step3 {
+        margin: 10px 30px;
+        padding: 20px;
+        border-radius: 0 20px 20px 20px;
+        background: white;
+        box-shadow: 0 20px 20px rgba(128, 128, 128, 0.171);
+        h3 {
+          font-weight: bold;
+        }
+        p {
+          color: #405c5a;
+          font-weight: 600;
         }
       }
     }
-    .Hero_img {
-      background: url("https://cdni.iconscout.com/illustration/premium/thumb/pet-doctor-2681442-2239905.png");
-      object-fit: contain;
-      width: 50%;
-      height: 500px;
-    }
+  }
+  .Hero_img {
+    background: url("https://cdni.iconscout.com/illustration/premium/thumb/pet-doctor-2681442-2239905.png");
+    object-fit: contain;
+    width: 50%;
+    height: 500px;
   }
 }
+
 @media (max-width: 850px) {
   .content {
     .StepsToWork {

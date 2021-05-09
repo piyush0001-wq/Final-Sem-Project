@@ -60,7 +60,7 @@
   border-radius: 50%;
 }
 
-.HowItWorks .content .StepsToWork .steps {
+.HowItWorks .content .steps {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -72,31 +72,31 @@
       justify-content: space-around;
 }
 
-.HowItWorks .content .StepsToWork .steps .step1,
-.HowItWorks .content .StepsToWork .steps .step2,
-.HowItWorks .content .StepsToWork .steps .step3 {
+.HowItWorks .content .steps .step1,
+.HowItWorks .content .steps .step2,
+.HowItWorks .content .steps .step3 {
   margin: 10px 30px;
   padding: 20px;
   border-radius: 0 20px 20px 20px;
   background: white;
-  -webkit-box-shadow: 0 20px 20px rgba(128, 128, 128, 0.486);
-          box-shadow: 0 20px 20px rgba(128, 128, 128, 0.486);
+  -webkit-box-shadow: 0 20px 20px rgba(128, 128, 128, 0.171);
+          box-shadow: 0 20px 20px rgba(128, 128, 128, 0.171);
 }
 
-.HowItWorks .content .StepsToWork .steps .step1 h3,
-.HowItWorks .content .StepsToWork .steps .step2 h3,
-.HowItWorks .content .StepsToWork .steps .step3 h3 {
+.HowItWorks .content .steps .step1 h3,
+.HowItWorks .content .steps .step2 h3,
+.HowItWorks .content .steps .step3 h3 {
   font-weight: bold;
 }
 
-.HowItWorks .content .StepsToWork .steps .step1 p,
-.HowItWorks .content .StepsToWork .steps .step2 p,
-.HowItWorks .content .StepsToWork .steps .step3 p {
+.HowItWorks .content .steps .step1 p,
+.HowItWorks .content .steps .step2 p,
+.HowItWorks .content .steps .step3 p {
   color: #405c5a;
   font-weight: 600;
 }
 
-.HowItWorks .content .Hero_img {
+.HowItWorks .Hero_img {
   background: url("https://cdni.iconscout.com/illustration/premium/thumb/pet-doctor-2681442-2239905.png");
   -o-object-fit: contain;
      object-fit: contain;

@@ -48,8 +48,8 @@
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 20px;
-  -webkit-box-shadow: 0 20px 30px #405c5a8e;
-          box-shadow: 0 20px 30px #405c5a8e;
+  -webkit-box-shadow: 0 20px 30px #405c5a52;
+          box-shadow: 0 20px 30px #405c5a52;
 }
 
 .Services .service_box .service01 .img,
@@ -61,7 +61,7 @@
   border-radius: 50%;
   background: #405c5a;
   margin-bottom: 20px;
-}zzzzzzzzz
+}
 
 .Services .service_box .service01 h3,
 .Services .service_box .service02 h3,
