@@ -1,13 +1,14 @@
 import React from 'react'
 import './home.css'
-import { useState } from 'react'
 import HowItWork from './HowItWorks/HowItWorks'
 
 function Home() {
 
 
-
   return (
+
+
+
     <div className="home">
 
       <div className="banner">
@@ -37,6 +38,7 @@ function Home() {
       </div>
 
       <HowItWork />
+
     </div>
   )
 }
