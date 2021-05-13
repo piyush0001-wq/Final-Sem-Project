@@ -29,7 +29,7 @@ footer .top .icon {
   font-size: 35px;
 }
 
-footer .main_content .newsletter {
+footer .newsletter {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,11 +41,11 @@ footer .main_content .newsletter {
           justify-content: space-evenly;
 }
 
-footer .main_content .newsletter .left {
+footer .newsletter .left {
   width: 200px;
 }
 
-footer .main_content .newsletter .input {
+footer .newsletter .input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -58,7 +58,7 @@ footer .main_content .newsletter .input {
   border: 2px solid #597c7a;
 }
 
-footer .main_content .newsletter .input input {
+footer .newsletter .input input {
   outline: none;
   width: 300px;
   padding: 12px;
@@ -67,7 +67,7 @@ footer .main_content .newsletter .input input {
   color: white;
 }
 
-footer .main_content .newsletter .right_social_handlers {
+footer .newsletter .right_social_handlers {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -79,7 +79,7 @@ footer .main_content .newsletter .right_social_handlers {
   width: 220px;
 }
 
-footer .main_content .newsletter .right_social_handlers p {
+footer .newsletter .right_social_handlers p {
   height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -94,10 +94,44 @@ footer .main_content .newsletter .right_social_handlers p {
           align-items: center;
 }
 
-footer .main_content .newsletter .right_social_handlers p:hover {
+footer .newsletter .right_social_handlers p:hover {
   background: #597c7a;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   cursor: pointer;
+}
+
+footer .main_links {
+  margin: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: left;
+}
+
+footer .main_links i {
+  padding-right: 10px;
+}
+
+footer .main_links h3 {
+  color: grey;
+}
+
+footer .main_links .contact {
+  width: 200px;
+}
+
+footer .main_links p:hover {
+  color: #999999;
+  cursor: pointer;
+}
+
+footer .main_links .reach_us div {
+  height: 100px;
+  width: 100px;
+  background: white;
 }
 /*# sourceMappingURL=Footer.css.map */
