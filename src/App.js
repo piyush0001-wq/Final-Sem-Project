@@ -3,6 +3,7 @@ import Navigation from './components/Navigation'
 import Home from './components/Home'
 import Services from './components/Services/Services';
 import AskUs from './components/AskUs/AskUs';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -14,6 +15,9 @@ function App() {
       <AskUs />
       <Home />
       <Services />
+
+      <Footer />
+
     </div>
 
 
